@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA4CC69717EF634100A4708F /* LKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CC69617EF634100A4708F /* LKBadgeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BA6442DB17EF6C1200480611 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6442DA17EF6C1200480611 /* 01.png */; };
 		BACDE9D317EF4C6F0028C927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D217EF4C6F0028C927 /* Foundation.framework */; };
 		BACDE9D517EF4C6F0028C927 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D417EF4C6F0028C927 /* CoreGraphics.framework */; };
 		BACDE9D717EF4C6F0028C927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D617EF4C6F0028C927 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		BA4CC69517EF634100A4708F /* LKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBadgeView.h; sourceTree = "<group>"; };
 		BA4CC69617EF634100A4708F /* LKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBadgeView.m; sourceTree = "<group>"; };
+		BA6442DA17EF6C1200480611 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		BACDE9CF17EF4C6F0028C927 /* BadgeOnSegementTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeOnSegementTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACDE9D217EF4C6F0028C927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BACDE9D417EF4C6F0028C927 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,9 +93,19 @@
 			path = LKBadgeView;
 			sourceTree = "<group>";
 		};
+		BA6442D917EF684A00480611 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				BA6442DA17EF6C1200480611 /* 01.png */,
+			);
+			name = ScreenShot;
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		BACDE9C617EF4C6E0028C927 = {
 			isa = PBXGroup;
 			children = (
+				BA6442D917EF684A00480611 /* ScreenShot */,
 				BA4CC69417EF632400A4708F /* LKBadgeView */,
 				BACDE9D817EF4C6F0028C927 /* BadgeOnSegementTest */,
 				BACDE9F717EF4C750028C927 /* BadgeOnSegementTestTests */,
@@ -244,6 +256,7 @@
 			files = (
 				BACDE9EB17EF4C740028C927 /* Images.xcassets in Resources */,
 				BACDE9DD17EF4C6F0028C927 /* InfoPlist.strings in Resources */,
+				BA6442DB17EF6C1200480611 /* 01.png in Resources */,
 				BACDE9E617EF4C740028C927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
