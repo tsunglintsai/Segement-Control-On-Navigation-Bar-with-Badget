@@ -1,4 +1,6 @@
-Segement-Control-On-Navigation-Bar-with-Badget
-==============================================
+Segement Control On Navigation Bar with Badget
+===========
 
-This demo shows how to put segement control on navigation bar and with badget over segement control
+Ths demo uses project from https://github.com/lakesoft/LKbadgeView
+
+<img src="https://raw.github.com/tsunglintsai/Segement-Control-On-Navigation-Bar-with-Badget/master/Screenshot/01.png"/>
