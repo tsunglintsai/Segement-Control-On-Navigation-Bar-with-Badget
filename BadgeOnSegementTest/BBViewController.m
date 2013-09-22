@@ -7,9 +7,12 @@
 //
 
 #import "BBViewController.h"
+#import "LKBadgeView.h"
+
 
 @interface BBViewController ()
-
+@property (weak, nonatomic) IBOutlet UIView *segementViewContainer;
+@property (weak, nonatomic) IBOutlet LKBadgeView *badgeView;
 @end
 
 @implementation BBViewController
@@ -18,12 +21,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.badgeView.text = @"3";
+    self.badgeView.widthMode = LKBadgeViewWidthModeStandard;
+    self.badgeView.textColor = [UIColor whiteColor];
+    self.badgeView.badgeColor = [UIColor redColor];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

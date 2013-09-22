@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4CC69717EF634100A4708F /* LKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CC69617EF634100A4708F /* LKBadgeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BACDE9D317EF4C6F0028C927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D217EF4C6F0028C927 /* Foundation.framework */; };
 		BACDE9D517EF4C6F0028C927 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D417EF4C6F0028C927 /* CoreGraphics.framework */; };
 		BACDE9D717EF4C6F0028C927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDE9D617EF4C6F0028C927 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4CC69517EF634100A4708F /* LKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBadgeView.h; sourceTree = "<group>"; };
+		BA4CC69617EF634100A4708F /* LKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBadgeView.m; sourceTree = "<group>"; };
 		BACDE9CF17EF4C6F0028C927 /* BadgeOnSegementTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeOnSegementTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACDE9D217EF4C6F0028C927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BACDE9D417EF4C6F0028C927 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4CC69417EF632400A4708F /* LKBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CC69517EF634100A4708F /* LKBadgeView.h */,
+				BA4CC69617EF634100A4708F /* LKBadgeView.m */,
+			);
+			path = LKBadgeView;
+			sourceTree = "<group>";
+		};
 		BACDE9C617EF4C6E0028C927 = {
 			isa = PBXGroup;
 			children = (
+				BA4CC69417EF632400A4708F /* LKBadgeView */,
 				BACDE9D817EF4C6F0028C927 /* BadgeOnSegementTest */,
 				BACDE9F717EF4C750028C927 /* BadgeOnSegementTestTests */,
 				BACDE9D117EF4C6F0028C927 /* Frameworks */,
@@ -112,8 +125,6 @@
 		BACDE9D817EF4C6F0028C927 /* BadgeOnSegementTest */ = {
 			isa = PBXGroup;
 			children = (
-				BACDE9E117EF4C6F0028C927 /* BBAppDelegate.h */,
-				BACDE9E217EF4C740028C927 /* BBAppDelegate.m */,
 				BACDE9E417EF4C740028C927 /* Main.storyboard */,
 				BACDE9E717EF4C740028C927 /* BBViewController.h */,
 				BACDE9E817EF4C740028C927 /* BBViewController.m */,
@@ -126,6 +137,8 @@
 		BACDE9D917EF4C6F0028C927 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BACDE9E117EF4C6F0028C927 /* BBAppDelegate.h */,
+				BACDE9E217EF4C740028C927 /* BBAppDelegate.m */,
 				BACDE9DA17EF4C6F0028C927 /* BadgeOnSegementTest-Info.plist */,
 				BACDE9DB17EF4C6F0028C927 /* InfoPlist.strings */,
 				BACDE9DE17EF4C6F0028C927 /* main.m */,
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACDE9E917EF4C740028C927 /* BBViewController.m in Sources */,
+				BA4CC69717EF634100A4708F /* LKBadgeView.m in Sources */,
 				BACDE9E317EF4C740028C927 /* BBAppDelegate.m in Sources */,
 				BACDE9DF17EF4C6F0028C927 /* main.m in Sources */,
 			);
@@ -461,6 +475,7 @@
 				BACDEA0317EF4C760028C927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BACDEA0417EF4C760028C927 /* Build configuration list for PBXNativeTarget "BadgeOnSegementTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				BACDEA0617EF4C760028C927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
